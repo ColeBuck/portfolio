@@ -12,10 +12,12 @@ const projects = [
   {
     title:"Portfolio Site", 
     description:"Yes, the portfolio site that you're looking at right now! This project had two main purposes: to help me learn Gatsby.js, and to efficiently show off other projects that I've worked on. ", 
+    link:"https://github.com/ColeBuck/portfolio"
   },
   {
     title:"Java Football", 
     description:"When I started learning Java way back in high school, the first thing I wanted to make was a football simulator game, similar to the Madden video games. Of course, this turned out to be quite a challenge, and I didn't make it very far at all. Since then, I've revisited the idea multiple times, and have produced a small, but functional, fraction of my original vision!",
+    link:"https://github.com/ColeBuck/javafootball"
   }
 ]
 
