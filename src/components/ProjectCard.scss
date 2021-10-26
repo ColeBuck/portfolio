@@ -1,0 +1,47 @@
+div.project-card {
+ 
+    width: 70%;
+    margin: auto;
+    margin-bottom: 75px;
+    border-radius: 12px;
+    padding: 10px;
+    
+}
+
+div.top {
+    padding-bottom: 30px;
+}
+
+hr {
+    height: 3px;
+    color: white;
+    background-color: white;
+    border: 0;
+    width: 100%;
+}
+
+header.title {
+    width: 75%;
+    font-size: 34px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    display: inline;
+}
+
+a.code {
+    margin: 0;
+    width: 15%;
+    display: inline;
+    float: right;
+    text-align: center;
+}
+
+a.black:hover {
+    background-color: dodgerblue;
+}
+
+p.description {
+    margin-top: 0;
+    font-size: 26px;
+    background-color: transparent;
+}
