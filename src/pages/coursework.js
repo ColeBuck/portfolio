@@ -1,7 +1,7 @@
 import React from "react"
-import Navbar from "../components/navbar"
-import CourseCard from "../components/courseCard"
-import "../components/base.scss"
+import Navbar from "../components/Navbar"
+import CourseCard from "../components/CourseCard"
+import "../components/Base.scss"
 
 const courses = [
     {
