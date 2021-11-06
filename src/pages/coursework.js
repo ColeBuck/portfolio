@@ -1,6 +1,7 @@
 import React from "react"
 import Navbar from "../components/Navbar"
 import CourseCard from "../components/CourseCard"
+import Footer from "../components/Footer"
 import "../components/Base.scss"
 
 const courses = [
@@ -40,5 +41,6 @@ export default function Coursework() {
             return <CourseCard color={colors[index % colors.length]} title={item.title} description={item.description} link={item.link} abbrev={item.abbrev}></CourseCard>  
             })}
         </div>
+        <Footer/>
     </div>
 }

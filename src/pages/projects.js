@@ -1,6 +1,7 @@
 import React from "react"
 import Navbar from "../components/Navbar"
 import ProjectCard from "../components/ProjectCard"
+import Footer from "../components/Footer"
 import "../components/Base.scss"
 
 const projects = [
@@ -30,5 +31,6 @@ export default function Projects() {
           return <ProjectCard color={colors[index % colors.length]} title={item.title} description={item.description} link={item.link}></ProjectCard>  
       })}
     </div>
+    <Footer/>
   </div>
 }
