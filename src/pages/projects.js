@@ -1,4 +1,5 @@
 import React from "react"
+import Helmet from "react-helmet"
 import Navbar from "../components/Navbar"
 import ProjectCard from "../components/ProjectCard"
 import Footer from "../components/Footer"
@@ -24,6 +25,9 @@ const projects = [
 
 export default function Projects() {
   return <div>
+    <Helmet>
+      <title>Cole Buck | Projects</title>
+    </Helmet>
     <Navbar active="projects"/>
     <div class="projects">
       {projects.map((item, index) => {
