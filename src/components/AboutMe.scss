@@ -4,8 +4,15 @@ p {
     font-family: 'Roboto', sans-serif;
     width: 75%;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 90px;
     background-color: dodgerblue;
     border-radius: 12px;
     padding: 10px;
+}
+
+@media only screen and (max-width: 850px) {
+    p {
+        margin-top: 70px;
+        font-size: 22px;
+    }
 }

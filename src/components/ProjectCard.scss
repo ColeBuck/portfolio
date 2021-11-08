@@ -45,3 +45,18 @@ p.description {
     font-size: 26px;
     background-color: transparent;
 }
+
+// move GitHub links to new line on small screens
+@media only screen and (max-width: 600px) {
+    a.code {
+        margin-top: 20px;
+        width: 70%;
+        display: block;
+        float: none;
+    }
+
+    p.description {
+        font-size: 20px;
+    }
+}
+
