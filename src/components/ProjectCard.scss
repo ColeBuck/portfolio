@@ -4,7 +4,7 @@ div.project-card {
     margin: auto;
     margin-bottom: 75px;
     border-radius: 12px;
-    padding: 10px;
+    padding: 15px;
     
 }
 
@@ -28,6 +28,14 @@ header.title {
     display: inline;
 }
 
+header.section {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
 a.code {
     margin: 0;
     width: 15%;
@@ -46,6 +54,15 @@ p.description {
     background-color: transparent;
 }
 
+p.tech {
+    width: 100%;
+    margin: 0;
+    padding: 5px 0px;
+    font-size: 26px;
+    text-align: center;
+    background-color: transparent;
+}
+
 // move GitHub links to new line on small screens
 @media only screen and (max-width: 600px) {
     a.code {
@@ -56,6 +73,10 @@ p.description {
     }
 
     p.description {
+        font-size: 20px;
+    }
+
+    p.tech {
         font-size: 20px;
     }
 }
