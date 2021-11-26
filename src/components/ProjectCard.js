@@ -1,18 +1,18 @@
 import React from "react"
-import "./ProjectCard.scss"
+import './ProjectCard.scss';
 
 export default function ProjectCard(props) {
-    return <div class="project-card"  style={{"backgroundColor": props.color}}>
-        <div class="top">
-            <header class="title">{props.project.title}</header>
-            <a class={"code " + props.color} href={props.project.link} target="_">View GitHub</a>
-        </div>
-        <hr/>
-        <p class="description">{props.project.description}</p>
-        <hr/>
-        <header class="section">Technology Used</header>
+    return <div class="project-card">
+        <h1 class="project-title">{props.project.title}</h1>
+        <p class="project-description">{props.project.description}</p>
+        <h1 class="section-title">Technology Used</h1>
         {props.project.tech.map((item) => {
-            return <p class="tech">- {item}</p>
+          return <p class="tech-item">&bull; {item}</p>
         })}
+        <h1 class="section-title">Links</h1>
+        <div class="links-container">
+            {props.project.link ? <a href={props.project.link} target="_blank" rel="noreferrer">Live App</a> : null}
+            <a href={props.project.github} target="_blank" rel="noreferrer">GitHub</a>
+        </div>
     </div>
 }

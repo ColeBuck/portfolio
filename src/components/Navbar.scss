@@ -1,79 +1,61 @@
-$primary: dodgerblue;
-$secondary: white;
-$third: #FFFFFF;
-
-ul.navbar {
-    margin-top: 10px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-bottom: 175px;
+div.navbar {
+    display: inline-block;
+    background-color: black;
+    width: 25%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: fixed;
 }
 
-li.navbar {
-    display: inline;
+div.navbar h1#name {
+    font-weight: 100;
+    color: snow;
+    width: 80%;
+    font-size: 60px;
+    margin: auto;
+    margin-top: 20px;
+    font-family: 'Squada One', sans-serif;
+    text-align: center;
+}
+
+
+div.navbar img#cole {
+    box-shadow: 4px 5px 4px 4px black;
+    width: 66%;
+    border-radius: 25%;
+    margin: 20px 17% 20px 17%;
 }
 
 a {
-    border-radius: 25px;
-    background-color: white;
-    margin-left: 30px;
-    margin-right: 30px;
-    padding: 15px;
-    color: black;
     text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    font-size: 23px;
-    transition-duration: 400ms;
-}
-
-a.active {
-    background-color: black;
-    color: white;
-}
-
-a#name {
-    background-color: $primary;
-    color: white;
-    font-size: 50px;
-    font-family: 'Squada One', cursive;
-}
-
-a:hover {
-    text-decoration: none;
-    background-color: black;
-    color: white;
-    cursor: pointer;
 }
 
 a:visited {
+    color: snow;
     text-decoration: none;
 }
 
-img {
-    border-radius: 25%;
-    position: absolute;
-    right: 50px;
-    top: 25px;
+a.navbar-link {
+    width: 70%;
+    margin: auto;
+    border-radius: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: block;
+    background-color: transparent;
+    color: snow;
+    text-align: center;
+    font-family: 'Squada One', sans-serif;
+    font-size: 30px;
+    transition-duration: 300ms;
+    padding: 10px;
 }
 
-@media only screen and (max-width: 850px) {
-    div.navbar a {
-      border-radius: 0px;
-      margin: 15px 0px 15px 0px;
-      text-align: center;
-      width: 100%;
-      display: block;
-      padding-left: 0px;
-      padding-right: 0px;
-    }
+a.navbar-link.active {
+    background-color: dodgerblue;
+}
 
-    ul.navbar {
-        margin-bottom: 50px;
-    }
-  }
-
-  @media only screen and (max-width: 1070px) {
-      img {
-          display: none;
-      }
-  }
+a.navbar-link:hover {
+    background-color: dodgerblue;
+}

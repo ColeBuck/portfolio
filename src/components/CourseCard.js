@@ -1,13 +1,13 @@
 import React from "react"
-import "./CourseCard.scss"
+import './CourseCard.scss';
 
 export default function CourseCard(props) {
-    return <div class="course-card"  style={{"backgroundColor": props.color}}>
-        <div class="top">
-            <header class="title">{props.title}</header>
-            <a class={"course " + props.color} href={props.link} target="_">{props.abbrev}</a>
+    return <div class="course-card">
+        <h1 class="course-title">{props.course.title}</h1> 
+        <p class="course-description">{props.course.description}</p>
+        <h1 class="section-title">Link</h1>
+        <div class="links-container">
+            <a href={props.course.link} target="_blank" rel="noreferrer">{props.course.abbrev}</a>
         </div>
-        <hr/>
-        <p class="description">{props.description}</p>
     </div>
 }
