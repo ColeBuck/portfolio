@@ -1,0 +1,76 @@
+@media only screen and (max-width: 769px) {
+    div.navbar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        padding-bottom: 10px;
+    }
+
+    div.navbar h1#name {
+        margin-bottom: 15px;
+    }
+
+    div.navbar img#cole {
+        display: none;
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    div.navbar a.navbar-link {
+        width: 50%;
+    }
+
+    div.content-container {
+        width: 100%;
+        margin: auto;
+    }
+
+    div.text-card {
+        width: 80%;
+    }
+
+    div.text-card p {
+        font-size: 23px;
+    }
+
+    div.project-card {
+        width: 80%;
+    }
+
+    div.project-card h1.project-title {
+        font-size: 50px;
+    }
+
+    div.project-card p.project-description {
+        font-size: 23px;
+    }
+
+    div.project-card h1.section-title {
+        font-size: 40px;
+    }
+
+    div.project-card p.tech-item {
+        font-size: 23px;
+    }
+    
+    div.links-container a {
+        font-size: 23px;
+    }
+
+    div.course-card {
+        width: 80%;
+    }
+
+    div.course-card h1.course-title {
+        font-size: 50px;
+    }
+
+    div.course-card p.course-description {
+        font-size: 23px;
+    }
+
+    div.course-card h1.section-title {
+        font-size: 40px;
+    }
+  }

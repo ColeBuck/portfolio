@@ -3,6 +3,7 @@ import Helmet from "react-helmet"
 import Navbar from "../components/Navbar"
 import TextCard from "../components/TextCard"
 import "../components/Base.scss"
+import "../components/MobileView.scss"
 import homeText from "../../static/data/homeText.json"
 
 export default function Home() {
